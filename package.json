@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-reactjs-chat",
+  "version": "0.0.1",
+  "description": "An chat application that doesn't require a password auth only a unique username.",
+  "main": "index.js",
+  "scripts": {
+    "backend-deploy": "cd backend && node index.js",
+    "frontend-dev": "cd frontend && npm run dev",
+    "deploy": "npm run backend-deploy && npm run frontend-dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthamk/nodejs-reactjs-chat.git"
+  },
+  "author": "parthamk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parthamk/nodejs-reactjs-chat/issues"
+  },
+  "homepage": "https://github.com/parthamk/nodejs-reactjs-chat#readme"
+}
